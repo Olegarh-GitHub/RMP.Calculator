@@ -202,12 +202,12 @@
 
 
             <Button
-                android:id="@+id/percent"
+                android:id="@+id/mul"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:backgroundTint="@color/dark_green"
                 android:textSize="40dp"
-                android:text="%" />
+                android:text="*" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -267,7 +267,14 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="  "/>
+                android:text="   "/>
         </LinearLayout>
     </FrameLayout>
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
 </RelativeLayout>
